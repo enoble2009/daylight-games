@@ -5,13 +5,14 @@
 export const environment = {
   production: false,
   firebase: {
-    apiKey: "AIzaSyBwchRdT0a1Kfx9WxsYaa9EJ7Ak01pMOfQ",
-    authDomain: "delivery-local.firebaseapp.com",
-    databaseURL: "https://delivery-local.firebaseio.com",
-    projectId: "delivery-local",
-    storageBucket: "delivery-local.appspot.com",
-    messagingSenderId: "412238987978",
-    appId: "1:412238987978:web:0542f2aa38f646d3faaa33"
+    apiKey: "AIzaSyDz6iPz7o-RcaGEfrKCcgGoVRurnIZ24Y0",
+    authDomain: "daylight-games-studio.firebaseapp.com",
+    databaseURL: "https://daylight-games-studio.firebaseio.com",
+    projectId: "daylight-games-studio",
+    storageBucket: "daylight-games-studio.appspot.com",
+    messagingSenderId: "204610150197",
+    appId: "1:204610150197:web:565ca697264279b4db367c",
+    measurementId: "G-QDN62G7WBR"
   }
 };
 
