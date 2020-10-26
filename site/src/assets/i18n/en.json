@@ -1,0 +1,13 @@
+{
+    "home": {
+        "side_menu": {
+            "games": "Games",
+            "about_us": "About us",
+            "blog": "Blog",
+            "contact": "Contact"
+        },
+        "about_us": {
+            "title": "About Daylight Games"
+        }
+    }
+}

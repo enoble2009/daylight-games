@@ -1,4 +1,7 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
+import { TranslateService } from '@ngx-translate/core';
+import * as AOS from 'aos';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +10,17 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'site';
+  public url: string = "";
+
+  constructor(private router: Router, 
+      private translate: TranslateService) {
+    translate.setDefaultLang('en');
+    router.events.subscribe((val) => {
+      this.url = this.router.url;
+    });
+  }
+
+  ngOnInit() {
+    AOS.init();
+  }
 }

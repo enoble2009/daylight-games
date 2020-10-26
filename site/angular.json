@@ -28,7 +28,8 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.less"
+              "src/styles.less",
+              "./node_modules/aos/dist/aos.css"
             ],
             "scripts": []
           },
@@ -92,7 +93,8 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.less"
+              "src/styles.less",
+              "./node_modules/aos/dist/aos.css"
             ],
             "scripts": []
           }
@@ -123,6 +125,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "site"
+    }
+  },
+  "defaultProject": "site",
+  "cli": {
+    "analytics": "df23319c-0e77-4e1b-b9e1-9a6b903e6579"
+  }
 }
